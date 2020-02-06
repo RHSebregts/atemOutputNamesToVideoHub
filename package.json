@@ -1,0 +1,29 @@
+{
+  "name": "atemoutputstovideohub",
+  "version": "0.0.1",
+  "description": "Update Videohub Inputs Names based on selected ATEM output",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RHSebregts/atemOutputNamesToVideoHub.git"
+  },
+  "keywords": [
+    "ATEM",
+    "videohub",
+    "blackmagic"
+  ],
+  "author": "RHS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RHSebregts/atemOutputNamesToVideoHub/issues"
+  },
+  "homepage": "https://github.com/RHSebregts/atemOutputNamesToVideoHub#readme",
+  "dependencies": {
+    "applest-atem": "^0.2.4",
+    "express": "^4.17.1",
+    "telnet-client": "^1.2.11"
+  }
+}
